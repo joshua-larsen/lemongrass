@@ -1,3 +1,5 @@
+# run venv via {. .venv/bin/activate}
+
 from flask import Flask
 
 app = Flask(__name__)
