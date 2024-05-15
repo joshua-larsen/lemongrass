@@ -1,9 +1,10 @@
 from flask import Flask
 
-from dashboard import pages
+from dashboard import pages, posts
 
 def create_app():
     app = Flask(__name__)
 
     app.register_blueprint(pages.bp)
+    app.register_blueprint(posts.bp)
     return app
