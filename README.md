@@ -5,6 +5,7 @@ This is my CS50x final project which I hope to turn into a useful tool. The obje
 
 If you wish to contribute to this project you will need to add a .env file to the project directory similar to the diagram below.
 
+```
 lemongrass/
 ├── .env
 │
@@ -24,3 +25,4 @@ lemongrass/
     │
     ├── __init__.py
     └── pages.py
+```
